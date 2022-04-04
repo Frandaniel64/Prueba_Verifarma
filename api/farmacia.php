@@ -29,11 +29,6 @@ class farmacia{
                 'distancia' => $distancia.' km'
             ];
             
-                
-               /*  'nombre' => $f->nombre,
-                'direccion' => $f->direccion,
-                'distancia' => $distancia.' km' */
-        ;
             echo json_encode($farmacia);
         }else{
             echo json_encode(array('error' => 'No hay farmacias cercanas'));
